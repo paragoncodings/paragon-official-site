@@ -1,10 +1,10 @@
 // servicesData.js
-import webDevelopment from '../../../assets/web-development.jpg'
-import MobileApps from '../../../assets/mobile-app-dev-min.jpg'
-import iOSApps from '../../../assets/iphone-app-development-min.jpg'
-import AndroidApps from '../../../assets/Android-app-development.jpg'
-import DigitalMarketing from '../../../assets/Digital-Marketing2-min.jpg'
-import GraphicDesigning from '../../../assets/graphic-designing-min.jpg'
+import webDevelopment from '../../../../assets/web-development.jpg'
+import MobileApps from '../../../../assets/mobile-app-dev-min.jpg'
+import iOSApps from '../../../../assets/iphone-app-development-min.jpg'
+import AndroidApps from '../../../../assets/Android-app-development.jpg'
+import DigitalMarketing from '../../../../assets/Digital-Marketing2-min.jpg'
+import GraphicDesigning from '../../../../assets/graphic-designing-min.jpg'
 const services = [
     {
       id: 1,
@@ -39,7 +39,7 @@ const services = [
       id: 5,
       title: 'Digital Marketing',
       description:
-        'We will do digital marketing for your brand, your company, your products / services. The world is currently online, as are brands, companies, products and services in order to reach and interact with as many customers as possible. We merge marketing with design and technology to provide you with a complete digital marketing package. We are putting our efforts to increase customer satisfaction. ',
+        'We will do digital marketing for your brand, your company, your products / services. The world is currently online, as are brands, companies, products and services in order to reach and interact with as many customers as possible. We merge marketing with design and technology to provide you with a complete digital marketing package. We are putting our efforts to increase customer satisfaction and flexibility',
       imgUrl: DigitalMarketing, // Replace with actual image URL
     },
     {
