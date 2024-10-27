@@ -1,15 +1,17 @@
-import React from 'react'
-import Home from './Component/Pages/Home/home'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Component/Pages/Home/home';
+
 
 function App() {
- 
-
   return (
-    <>
-  {/* <h1>This is Paragon Codings official site</h1> */}
-    <Home/>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+       
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
