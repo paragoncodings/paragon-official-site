@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaCircle } from 'react-icons/fa';
-import strategyImage from './../../../../assets/home-concept-item-1.png';
-import planningImage from './../../../../assets/home-concept-item-2.png';
-import buildImage from './../../../../assets/home-concept-item-3.png';
-import workImage from './../../../../assets/project-home-1.jpg';
+import strategyImage from './../../../assets/home-concept-item-1.png';
+import planningImage from './../../../assets/home-concept-item-2.png';
+import buildImage from './../../../assets/home-concept-item-3.png';
+import workImage from './../../../assets/project-home-1.jpg';
 
 const Timeline = () => {
   const steps = [

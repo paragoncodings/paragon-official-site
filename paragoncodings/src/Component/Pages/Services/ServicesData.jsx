@@ -1,10 +1,10 @@
 // servicesData.js
-import webDevelopment from '../../../../assets/web-development.jpg'
-import MobileApps from '../../../../assets/mobile-app-dev-min.jpg'
-import iOSApps from '../../../../assets/iphone-app-development-min.jpg'
-import AndroidApps from '../../../../assets/Android-app-development.jpg'
-import DigitalMarketing from '../../../../assets/Digital-Marketing2-min.jpg'
-import GraphicDesigning from '../../../../assets/graphic-designing-min.jpg'
+import webDevelopment from '../../../assets/web-development.jpg'
+import MobileApps from '../../../assets/mobile-app-dev-min.jpg'
+import iOSApps from '../../../assets/iphone-app-development-min.jpg'
+import AndroidApps from '../../../assets/Android-app-development.jpg'
+import DigitalMarketing from '../../../assets/Digital-Marketing2-min.jpg'
+import GraphicDesigning from '../../../assets/graphic-designing-min.jpg'
 const services = [
     {
       id: 1,

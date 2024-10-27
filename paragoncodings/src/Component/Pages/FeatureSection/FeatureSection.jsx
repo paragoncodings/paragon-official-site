@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaCheckCircle, FaClock, FaGlobe, FaAnchor } from 'react-icons/fa';
-import codingImage from '../../../../assets/Working.png'; // Make sure to replace with the actual path to your image
+import codingImage from '../../../assets/Working.png'; // Make sure to replace with the actual path to your image
 
 const FeatureSection = () => {
   const features = [
