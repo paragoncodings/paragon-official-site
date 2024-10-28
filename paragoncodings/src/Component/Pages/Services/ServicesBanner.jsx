@@ -1,5 +1,5 @@
 import React from 'react';
-import services1 from '../../../../assets/services1.png';
+import services1 from '../../../assets/services1.png';
 
 const ServicesBanner = () => {
   return (
