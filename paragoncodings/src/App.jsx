@@ -1,15 +1,23 @@
 import React, { Fragment } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import ScrollToTop from "react-scroll-to-top";
+import { FaArrowUp } from 'react-icons/fa'; 
+import Home from './Component/Pages/home'
+import NavBar from './Component/Navbar/Navbar';
+
 import Home from './Component/Pages/home';
 import ScrollToTop from "react-scroll-to-top";
 import { FaArrowUp } from 'react-icons/fa'; 
 // import Home from './Component/Pages/Home'
+
 function App() {
  
 
   return (
     <Fragment>
        <Router>
+        <NavBar/>
       <Routes>
          <Route path="/" element={<Home />} />
        
@@ -19,7 +27,11 @@ function App() {
 
       </Routes>
     </Router>
+
+    <ScrollToTop
+
  <ScrollToTop
+
         smooth
         component={<FaArrowUp />} 
         style={{
@@ -33,6 +45,9 @@ function App() {
         }}
         className="hover:scale-110" 
       />
+
+
+
 
     </Fragment>
   )
