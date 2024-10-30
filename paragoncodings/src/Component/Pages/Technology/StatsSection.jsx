@@ -9,7 +9,7 @@ const StatsSection = () => {
   });
 
   return (
-    <div className="bg-gray-800 text-white p-8" ref={ref}>
+    <div className="bg-[#37383C] text-[#73FAF9] p-8" ref={ref}>
       <div className="flex justify-around items-center">
         <div className="text-center">
           <CountUp start={0} end={2015} duration={3} delay={0} useEasing={true} redraw={inView} />

@@ -7,6 +7,7 @@ import NavBar from "./Component/Navbar/NavBar";
 
 import Home from "./Component/Pages/Home";
 
+
 function App() {
   return (
     <Fragment>
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
+       
       </Router>
 
       <ScrollToTop

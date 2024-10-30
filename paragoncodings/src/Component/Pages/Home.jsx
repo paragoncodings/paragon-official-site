@@ -8,6 +8,7 @@ import WhatsAppButton from './Home/WhatsAppButton'
 import HeroSection from './Home/HeroSection'
 
 import AboutSection from './Home/AboutSection'
+// import Footer from '../Footer/Footer'
 
 
 const Home = () => {
@@ -24,7 +25,7 @@ const Home = () => {
         <WhatsAppButton/>
 
         <WhatsAppButton /> 
-
+      
     </div>
   )
 }
